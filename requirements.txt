@@ -1,0 +1,9 @@
+
+git+https://github.com/Pycord-Development/pycord
+jishaku
+utils
+discord.py==1.7.3
+python-dotenv==0.19.2
+requests==2.25.1
+sentry-sdk
+psutil
