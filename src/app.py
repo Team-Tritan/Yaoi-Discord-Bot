@@ -28,4 +28,4 @@ if __name__ == "__main__":
         dsn=os.getenv("SENTRY_DSN"),
         traces_sample_rate=1.0
     )
-railMeDaddy()
+    railMeDaddy()
