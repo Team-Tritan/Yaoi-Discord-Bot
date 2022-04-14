@@ -8,7 +8,7 @@ load_dotenv()
 
 intents = discord.Intents.all()
 
-def railMeDaddy():
+def main():
     client = commands.Bot(command_prefix="y.", intents=intents)
 
     for filename in os.listdir("./cogs"):
@@ -28,4 +28,4 @@ if __name__ == "__main__":
         dsn=os.getenv("SENTRY_DSN"),
         traces_sample_rate=1.0
     )
-    railMeDaddy()
+    main()
